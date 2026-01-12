@@ -1,0 +1,18 @@
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.heading {
+  color: rgb(226, 225, 235);
+  background-color: rgb(135, 9, 9);
+  font-style: italic;
+  padding: 12px;
+}
+
+.logo {
+  color: tomato;
+  font-size: 24px;
+  background-color: wheat;
+}
