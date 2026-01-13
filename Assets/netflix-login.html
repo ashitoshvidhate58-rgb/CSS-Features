@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netflix Sign Up</title>
+
+    <link rel="stylesheet" href="./Netflix.css">
+  </head>
+
+  <body>
+    <!-- Background -->
+    <div class="div-background">
+      <!-- Header -->
+      <div>
+        <svg
+          width="150"
+          height="50"
+          viewBox="0 0 150 50"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Dark background -->
+          <rect x="0" y="0" width="150" height="50" fill="#221F1F" rx="4" />
+
+          <!-- NETFLIX text in bold red -->
+          <text class="text">
+            NETFLIX
+          </text>
+        </svg>
+      </div>
+
+      <!-- Signup Box -->
+      <div class="div-signup-box">
+        <div
+          style="
+            width: 380px;
+            background: rgba(0, 0, 0, 0.75);
+            padding: 60px;
+            color: white;
+            border-radius: 4px;
+          "
+        >
+          <h1>
+            Create Your Account
+          </h1>
+
+          <!-- First Name Input -->
+          <input
+            type="text"
+            placeholder="First Name" class="input-text"
+          />
+
+          <!-- Last Name Input -->
+          <input
+            type="text"
+            placeholder="Last Name" class="input-text"
+          />
+
+          <!-- Email Input -->
+          <input
+            type="email"
+            placeholder="Email address" class="input-text"
+          />
+
+          <!-- Password Input -->
+          <input
+            type="password"
+            placeholder="Password" class="input-text"
+          />
+
+          <!-- Confirm Password Input -->
+          <input
+            type="password"
+            placeholder="Confirm Password" class="input-conpwd"/>
+
+          <!-- Terms Agreement -->
+          <div>
+            <input
+              type="checkbox"
+              style="margin-right: 10px; margin-top: 3px"
+            />
+            <span
+              >I agree to the Netflix
+              <span style="color: #e50914; cursor: pointer">Terms of Use</span>
+              and
+              <span style="color: #e50914; cursor: pointer"
+                >Privacy Policy</span
+              ></span
+            >
+          </div>
+
+          <!-- Sign Up Button -->
+          <button class="button-signup">
+            Create Account
+          </button>
+
+          <!-- Already have account section -->
+          <div class="div-alreadyacc">
+            Already have an account?
+            <span style="color: #e50914; cursor: pointer; margin-left: 8px">
+              Sign In</span
+            >
+          </div>
+
+          <!-- Contact Info -->
+          <div class="div-coninfo">
+            Need help?
+            <span style="color: #e50914; cursor: pointer; margin-left: 8px"
+              >Contact Support</span
+            >
+          </div>
+
+          <!-- reCAPTCHA notice -->
+          <div class="div-recaptcha">
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <span style="color: #e50914; cursor: pointer">Learn more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
